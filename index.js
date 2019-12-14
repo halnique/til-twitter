@@ -72,7 +72,7 @@ let now;
 const getTweets = async () => {
   const nowString = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate() - 1}`;
   const params = {
-    q: `(from:${process.env.ACCOUNT_NAME}) since:${nowString}`,
+    q: `(from:${process.env.ACCOUNT_NAME}) since:${nowString} ${TARGET_HASHTAG}`,
     count: process.env.MAX_COUNT || 5,
   };
 
