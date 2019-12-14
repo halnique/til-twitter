@@ -1,0 +1,33 @@
+{
+  "name": "til-twitter",
+  "version": "1.0.0",
+  "description": "AWS Lambda function of TIL by twitter",
+  "main": "index.js",
+  "scripts": {
+    "run": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halnique/til-twitter.git"
+  },
+  "keywords": [
+    "til",
+    "twitter",
+    "lambda",
+    "aws",
+    "github"
+  ],
+  "author": "halnique <shunsuke4dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halnique/til-twitter/issues"
+  },
+  "homepage": "https://github.com/halnique/til-twitter#readme",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
