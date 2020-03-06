@@ -1,0 +1,3 @@
+すでにPhpStormを開いてるときにpstormコマンドが効かない問題
+設定し直したらいけるよとのことだった #til 
+https://t.co/eDkrM3vA3v
