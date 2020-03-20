@@ -1,0 +1,1 @@
+DockerのENTRYPOINTとCMDの関係よりもk8sのcommandとargsの関係のほうが直感的でわかりやすそうということを学んだ #til
